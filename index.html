@@ -4,11 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Lato:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body>
-
+<body class="inter">
+    <div class="container">
+        <header class="header">
+            <img class="header_photo" src="./imgs/photo.jpg" alt="photo" />
+            <div class="header_wrapper">
+                <h1 class="header_title lato-bold">Maria Ivanova</h1>
+                <span class="header_subtitle">Frontend developer</span>
+            </div>
+        </header>
+        <main class="main">
+            <div>
+                <section class="contacts">
+                    <h3 class="contacts_title">Contact</h3>
+                    <ul class="contacts_list">
+                        <li>Phone: +7 911 7911771</li>
+                        <li>E-mail: mariiaivvas@gmail.com</li>
+                        <li>Telegram: @immarusya</li>
+                    </ul>
+                </section>
+                <section class="skills">
+                    <h3 class="skills_title">Skills</h3>
+                    <ul class="skills_list">
+                        <li>HTML5/CSS3/SASS</li>
+                        <li>GIT</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Redux/Redux Toolkit</li>
+                        <li>Vite</li>
+                        <li>Next.js</li>
+                    </ul>
+                </section>
+                <section class="languages">
+                    <h3 class="languages_title">Languages</h3>
+                    <p>
+                        <span>English</span>
+                        - Pre-Intermediate
+                    </p>
+                    <p>
+                        <span>Russian</span>
+                        - Native
+                    </p>
+                </section>
+                <section class="visit">
+                    <a class="github" href="https://github.com/Maria2721">
+                        <img class="github_img" src="./imgs/github.svg" alt="GitHub" width="32" height="32" />
+                    </a>
+                    <a class="codewars" href="https://www.codewars.com/users/Maria2701">
+                        <img class="codewars_img" src="./imgs/codewars.svg" alt="Codewars" width="32" height="32" />
+                    </a>
+                    <a class="linkedin" href="https://www.linkedin.com/">
+                        <img class="linkedin_img" src="./imgs/linkedin.svg" alt="Linkedin" width="32" height="32" />
+                    </a>
+                </section>
+            </div>
+            <div>
+                <section class="about">
+                    <h3 class="about_title">About Me</h3>
+                    <p class="about_text">
+                        I take on complex tasks with interest, I like to dig into the code and rack my brains over
+                        possible
+                        solutions. In Frontend development, I am primarily attracted by the opportunity to see the
+                        results
+                        of my
+                        work every day, which charges me with interest and the desire to move forward, to create new,
+                        higher-quality products. I am especially impressed by the variety of tasks and exciting
+                        projects,
+                        working on which simultaneously brings pleasure and professional development.
+                    </p>
+                </section>
+                <section class="education">
+                    <h3 class="education_title">Education</h3>
+                    <div class="education_text">
+                        <p>
+                            <span>Peter the Great St. Petersburg Polytechnic University, 2022</span>
+                            Mechanics and mathematical modeling of media with microstructure
+                        </p>
+                        <p>
+                            <span>ITGIRLSCHOOL, 2022</span>
+                            Frontend developer
+                        </p>
+                        <p>
+                            <span>Stepik, 2023</span>
+                            Redux for managing state in React applications
+                        </p>
+                    </div>
+                </section>
+                <section class="experience">
+                    <h3 class="experience_title">Experience</h3>
+                    <div class="experience_text">
+                        <p>
+                            <span>Exim Partners, 2022-2023</span>
+                            Frontend developer, developed web applications using the React library
+                        </p>
+                        <p>
+                            <span>Pet-projects, since 2023</span>
+                            Worked on developing applications both alone and in a team
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
 </body>
 
 </html>

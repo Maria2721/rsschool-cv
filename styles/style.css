@@ -1,0 +1,107 @@
+:root {
+    --text-color: #121804;
+    --bg-color: #F2E8DF;
+    --accent-color: #D4BDA9;
+    --gray-color: #9DA697;
+    --green-color: #9CBD54;
+    --dark-green-color: #354A18;
+}
+
+.inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.container {
+    width: 1024px;
+    margin: 20px auto;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    height: 300px;
+    background-color: var(--green-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header_photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid var(--accent-color);
+    object-fit: cover;
+}
+
+.header_wrapper {
+    width: 350px;
+    height: 80px;
+    border: 4px solid var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header_title {
+    color: var(--dark-green-color);
+    font-size: 30px;
+    word-spacing: 10px;
+}
+
+.header_subtitle {
+    position: absolute;
+    bottom: -22px;
+    padding: 10px;
+    background-color: var(--green-color);
+    color: var(--accent-color);
+    font-size: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    padding: 0 50px;
+}
+
+.main div:first-child {
+    background-color: var(--accent-color);
+}
+
+.contacts {
+    margin: 50px 0;
+}
+
+.contacts_title {
+    display: inline;
+    background-color: var(--green-color);
+}
+
+.visit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
