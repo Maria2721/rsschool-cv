@@ -1,0 +1,14 @@
+{
+	"languages": {
+		"ru": {
+			"header__title": "Мария Иванова",
+			"header__subtitle": "Frontend-разработчик",
+			"contacts__title": "Контакты"
+		},
+		"en": {
+			"header__title": "Maria Ivanova",
+			"header__subtitle": "Frontend developer",
+			"contacts__title": "Contacts"
+		}
+	}
+}
