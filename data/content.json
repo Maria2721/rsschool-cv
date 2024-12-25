@@ -3,12 +3,22 @@
 		"ru": {
 			"header__title": "Мария Иванова",
 			"header__subtitle": "Frontend-разработчик",
-			"contacts__title": "Контакты"
+			"contacts__title": "Контакты",
+			"skills__title": "Навыки",
+			"languages__title": "Языки",
+			"about__title": "Обо мне",
+			"education__title": "Образование",
+			"experience__title": "Опыт работы"
 		},
 		"en": {
 			"header__title": "Maria Ivanova",
 			"header__subtitle": "Frontend developer",
-			"contacts__title": "Contacts"
+			"contacts__title": "Contacts",
+			"skills__title": "Skills",
+			"languages__title": "Languages",
+			"about__title": "About Me",
+			"education__title": "Education",
+			"experience__title": "Experience"
 		}
 	}
 }
