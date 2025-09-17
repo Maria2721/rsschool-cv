@@ -81,5 +81,5 @@ const add = (a, b) => {
 
 ### Languages
 
-- **English** - Pre-Intermediate
+- **English** - Intermediate
 - **Russian** - Native
