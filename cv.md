@@ -2,11 +2,11 @@
 
 ### Contact Information
 
--   **Phone:** +7 911 7911771
--   **E-mail:** <mariiaivvas@gmail.com>
--   **Telegram:** [@immarusya](https://t.me/immarusya)
--   **GitHub:** [Maria2721](https://github.com/Maria2721)
--   **Codewars:** [Maria2701](https://www.codewars.com/users/Maria2701)
+- **Phone:** +7 911 7911771
+- **E-mail:** <mariiaivvas@gmail.com>
+- **Telegram:** [@immarusya](https://t.me/immarusya)
+- **GitHub:** [Maria2721](https://github.com/Maria2721)
+- **Codewars:** [Maria2701](https://www.codewars.com/users/Maria2701)
 
 ### About Me
 
@@ -14,15 +14,12 @@ I take on complex tasks with interest, I like to dig into the code and rack my b
 
 ### Skills
 
--   HTML5
--   CSS3
--   SASS
--   GIT
--   JavaScript
--   React
--   Redux, Redux Toolkit
--   Vite
--   Next.js
+- HTML5, CSS3, SASS, CSS Modules
+- JavaScript, TypeScript
+- React, Next.js
+- Redux, Redux Toolkit
+- Material UI, Bootstrap
+- GIT, Vite, NPM
 
 ### Code Example
 
@@ -32,55 +29,57 @@ Write a function that returns the sum of two numbers. The input numbers are stri
 
 ```javascript
 const add = (a, b) => {
-	if (a.length > b.length) {
-		let diff = a.length - b.length;
-		for (let i = 0; i < diff; i++) {
-			b = "0" + b;
-		}
-	} else if (a.length < b.length) {
-		let diff = b.length - a.length;
-		for (let i = 0; i < diff; i++) {
-			a = "0" + a;
-		}
-	}
+  if (a.length > b.length) {
+    let diff = a.length - b.length;
+    for (let i = 0; i < diff; i++) {
+      b = "0" + b;
+    }
+  } else if (a.length < b.length) {
+    let diff = b.length - a.length;
+    for (let i = 0; i < diff; i++) {
+      a = "0" + a;
+    }
+  }
 
-	let result = "";
-	let rank = 0;
-	for (let i = a.length - 1; i >= 0; i--) {
-		let curSum = Number(a.charAt(i)) + Number(b.charAt(i)) + rank;
-		if (curSum > 9) {
-			rank = parseInt(curSum / 10);
-			curSum = curSum % 10;
-		} else {
-			rank = 0;
-		}
-		result = String(curSum) + result;
-		if (i === 0 && rank !== 0) {
-			result = rank + result;
-		}
-	}
+  let result = "";
+  let rank = 0;
+  for (let i = a.length - 1; i >= 0; i--) {
+    let curSum = Number(a.charAt(i)) + Number(b.charAt(i)) + rank;
+    if (curSum > 9) {
+      rank = parseInt(curSum / 10);
+      curSum = curSum % 10;
+    } else {
+      rank = 0;
+    }
+    result = String(curSum) + result;
+    if (i === 0 && rank !== 0) {
+      result = rank + result;
+    }
+  }
 
-	return result;
+  return result;
 };
 ```
 
 ### Education
 
--   **Peter the Great St. Petersburg Polytechnic University, 2022**
-    -   Mechanics and mathematical modeling of media with microstructure
--   **ITGIRLSCHOOL, 2022**
-    -   Frontend developer
--   **Stepik, 2023**
-    -   Redux for managing state in React applications
+- **Peter the Great St. Petersburg Polytechnic University, 2022**
+  - Mechanics and mathematical modeling of media with microstructure
+- **ITGIRLSCHOOL, 2022**
+  - Frontend developer
+- **Stepik, 2023**
+  - Redux for managing state in React applications
 
 ### Experience
 
--   **Exim Partners, 2022-2023**
-    -   Frontend developer, developed web applications using the React library
--   **Pet-projects, since 2023**
-    -   Worked on developing applications both alone and in a team
+- **Exim Partners, 2022-2023**
+  - Frontend developer, engaged in developing web applications using the React library
+- **5DHUB, 2024**
+  - Frontend developer, conducted team development of applications of varying complexity aimed at solving specific business problems
+- **Pet-projects, since 2025**
+  - Worked on developing applications both alone and in a team at various hackathons
 
 ### Languages
 
--   **English** - Pre-Intermediate
--   **Russian** - Native
+- **English** - Pre-Intermediate
+- **Russian** - Native
