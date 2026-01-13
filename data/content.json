@@ -1,0 +1,38 @@
+{
+  "languages": {
+    "ru": {
+      "header__title": "Мария Иванова",
+      "header__subtitle": "Frontend-разработчик",
+      "contacts__title": "Контакты",
+      "skills__title": "Навыки",
+      "languages__title": "Языки",
+      "about__title": "Обо мне",
+      "education__title": "Образование",
+      "experience__title": "Опыт работы",
+      "education__university": "Санкт-Петербургский политехнический университет Петра Великого, 2022",
+      "education__university_speciality": "Механика и математическое моделирование сред с микроструктурой",
+      "education__stepik": "Redux для управления состоянием React-приложений",
+      "experience__exim": "Frontend-разработчик, создание веб-приложений с использованием библиотеки React",
+      "experience__5dhub": "Frontend-разработчик, командная разработка приложений различной сложности, направленных на решение конкретных бизнес-задач",
+      "experience__petprojects": "Разработка приложений как в одиночку, так и в составе команды на различных хакатонах",
+      "about__text": "С интересом берусь за сложные задачи, люблю покопаться в коде и поломать голову над возможными решениями. В Frontend-разработке меня прежде всего привлекает возможность видеть результаты своей работы каждый день, что заряжает интересом и желанием двигаться вперёд, создавать новые, более качественные продукты. Особенно впечатляет разнообразие задач и увлекательных проектов, работа над которыми одновременно приносит удовольствие и профессиональное развитие."
+    },
+    "en": {
+      "header__title": "Maria Ivanova",
+      "header__subtitle": "Frontend developer",
+      "contacts__title": "Contacts",
+      "skills__title": "Skills",
+      "languages__title": "Languages",
+      "about__title": "About Me",
+      "education__title": "Education",
+      "experience__title": "Experience",
+      "education__university": "Peter the Great St. Petersburg Polytechnic University, 2022",
+      "education__university_speciality": "Mechanics and mathematical modeling of media with microstructure",
+      "education__stepik": "Redux for managing state in React applications",
+      "experience__exim": "Frontend developer, engaged in developing web applications using the React library",
+      "experience__5dhub": "Frontend developer, conducted team development of applications of varying complexity aimed at solving specific business problems",
+      "experience__petprojects": "Worked on developing applications both alone and in a team at various hackathons",
+      "about__text": "I take on complex tasks with interest, I like to dig into the code and rack my brains over possible solutions. In Frontend development, I am primarily attracted by the opportunity to see the results of my work every day, which charges me with interest and the desire to move forward, to create new, higher-quality products. I am especially impressed by the variety of tasks and exciting projects, working on which simultaneously brings pleasure and professional development."
+    }
+  }
+}
